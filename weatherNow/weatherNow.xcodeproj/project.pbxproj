@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0667F12B02B7D1006CF621 /* HourlyForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0667F02B02B7D1006CF621 /* HourlyForecastCollectionViewCell.swift */; };
+		3F0667F32B02BD27006CF621 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0667F22B02BD27006CF621 /* Color+Extensions.swift */; };
 		3F8C4B032AF53F3D00DB93DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C4B022AF53F3D00DB93DF /* AppDelegate.swift */; };
 		3F8C4B052AF53F3D00DB93DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C4B042AF53F3D00DB93DF /* SceneDelegate.swift */; };
 		3F8C4B072AF53F3D00DB93DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C4B062AF53F3D00DB93DF /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F0667F02B02B7D1006CF621 /* HourlyForecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastCollectionViewCell.swift; sourceTree = "<group>"; };
+		3F0667F22B02BD27006CF621 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		3F8C4AFF2AF53F3D00DB93DF /* weatherNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8C4B022AF53F3D00DB93DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F8C4B042AF53F3D00DB93DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				3F8C4B022AF53F3D00DB93DF /* AppDelegate.swift */,
 				3F8C4B042AF53F3D00DB93DF /* SceneDelegate.swift */,
 				3F8C4B062AF53F3D00DB93DF /* ViewController.swift */,
+				3F0667F02B02B7D1006CF621 /* HourlyForecastCollectionViewCell.swift */,
+				3F0667F22B02BD27006CF621 /* Color+Extensions.swift */,
 				3F8C4B0B2AF53F3F00DB93DF /* Assets.xcassets */,
 				3F8C4B0D2AF53F3F00DB93DF /* LaunchScreen.storyboard */,
 				3F8C4B102AF53F3F00DB93DF /* Info.plist */,
@@ -134,8 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0667F32B02BD27006CF621 /* Color+Extensions.swift in Sources */,
 				3F8C4B072AF53F3D00DB93DF /* ViewController.swift in Sources */,
 				3F8C4B032AF53F3D00DB93DF /* AppDelegate.swift in Sources */,
+				3F0667F12B02B7D1006CF621 /* HourlyForecastCollectionViewCell.swift in Sources */,
 				3F8C4B052AF53F3D00DB93DF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
